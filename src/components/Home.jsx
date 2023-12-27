@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 export default function Home() {
   const [RoomCode, setRoomCode] = useState();
 
-  console.log(RoomCode);
 
   const navigate = useNavigate();
 
