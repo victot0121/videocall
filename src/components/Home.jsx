@@ -1,38 +1,3 @@
-// import { useState } from "react"
-// import { useNaigate } from "react-router-dom"
-
-// export default function Home() {
-    
-//     const [RoomCode, setRoomCode] =useState()
-
-//     console.log(RoomCode)
-
-//     const navigate = useNaigate()
-
-//     const sumbit = (e) =>{
-//         e.prevenntDault()
-//         navigate(`./Room.jsx/${RoomCode}`)
-//     }
-//   return (
-//     <div>
-//         <form action="" onSubmit={sumbit}>
-//             <label htmlFor=" "> Please your code</label>
-//             <div>
-//                 <input
-//                  type="text"
-//                  required
-//                   placeholder="Enter the full details please"
-//                   value={RoomCode} 
-//                   onChange={(e)=>  setRoomCode(e.target.value)}
-//                    />
-//             </div>
-//             <button type="sumbit"> Sumbit </button>
-//         </form>
-//     </div>
-//   )
-// }
-
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
