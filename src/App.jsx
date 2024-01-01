@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-    <Nav/>
+      <Nav />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/room/:roonID" element={<Room/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/room/:roonID" element={<Room />} />
       </Routes>
     </>
   )
